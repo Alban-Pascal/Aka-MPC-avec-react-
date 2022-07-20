@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
+import Layout from "components/UI/Layout";
 import "./App.css";
 
 export default function App() {
   return (
-    <div>
+    <Layout>
       <h1>Hello world</h1>
-    </div>
+    </Layout>
   );
 }
